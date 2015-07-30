@@ -1,0 +1,11 @@
+extends layout
+
+block content
+    form.list-form(method='POST' action='/countries')
+        input.load-btn(type='submit')
+    
+    form.country-find
+        input(name='name' )
+        input.search-btn(type='submit')
+
+    ul.country-list
